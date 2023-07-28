@@ -32,10 +32,10 @@ const tasksSlice = createSlice({
         task.completed = !task.completed;
       }
     },
-    editTask: (state, action: PayloadAction<{ id: number; newName: string }>) => {
+    editTask: (state, action: PayloadAction<{ id: number; newNameeee: string }>) => {
       const task = state.tasks.find((task) => task.id === action.payload.id);
       if (task) {
-        task.title = action.payload.newName;
+        task.title = action.payload.newNameeee;
       }
     },
     deleteTask: (state, action: PayloadAction<number>) => {
