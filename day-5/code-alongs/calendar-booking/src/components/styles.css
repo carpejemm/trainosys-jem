@@ -1,0 +1,23 @@
+.calendar-container {
+  height: 100vh; 
+}
+
+.fc {
+  width: 100%;
+  height: 100%;
+}
+
+.book-button-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.book-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
